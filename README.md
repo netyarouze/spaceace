@@ -1,6 +1,6 @@
 PS Homebrew Space Ace
 
-https://archive.org/details/@qbl
+https://archive.org/details/PSX_Homebrew_Dragons_Lair_Trilogy
 
 1. What's this?
 2. PAL version.
