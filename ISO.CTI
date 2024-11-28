@@ -1,0 +1,74 @@
+Disc CDROMXA_PSX
+
+LeadIn XA
+  Empty 1350
+  PostGap 150
+EndTrack
+
+Track XA
+  Pause 150
+  Volume ISO9660
+    SystemArea licensea.dat
+    PrimaryVolume
+      SystemIdentifier PLAYSTATION
+      VolumeIdentifier SPACEACE
+      VolumeSetIdentifier PLAYSTATION
+      PublisherIdentifier PLAYSTATION
+      ApplicationIdentifier PLAYSTATION
+      LPath
+      OptionalLpath
+      MPath
+      OptionalMpath
+      Hierarchy
+        File SYSTEM.CNF
+          XAFileAttributes Form1 Data
+          Source f:\spaceace\iso\SYSTEM.CNF
+        EndFile
+        File SPACE.ACE
+          XAFileAttributes Form1 Data
+          Source f:\spaceace\iso\SPACE.ACE
+        EndFile
+        File SPACE.PAL
+          XAFileAttributes Form1 Data
+          Source f:\spaceace\iso\SPACE.PAL
+        EndFile
+        File README.TXT
+          XAFileAttributes Form1 Data
+          Source f:\spaceace\iso\README.TXT
+        EndFile
+        File SOURCE.ZIP
+          XAFileAttributes Form1 Data
+          Source f:\spaceace\iso\SOURCE.ZIP
+        EndFile
+        File DISC.ID
+          XAFileAttributes Form1 Data
+          Source f:\spaceace\iso\DISC.ID
+        EndFile
+        File ASSETS.DAT
+          XAFileAttributes Form1 Data
+          Source f:\spaceace\iso\ASSETS.DAT
+        EndFile
+        File MOVIES.BIN
+          XASource f:\spaceace\iso\MOVIES.BIN
+        EndFile
+        File DLDEMO.STR
+          XASource f:\spaceace\iso\DLDEMO.STR
+        EndFile
+        File DUMMY.DAT
+          XAFileAttributes Form1 Data
+          Source f:\spaceace\iso\DUMMY.DAT
+        EndFile
+        File MANUAL.PDF
+          XAFileAttributes Form1 Data
+          Source f:\spaceace\iso\MANUAL.PDF
+        EndFile
+      EndHierarchy
+    EndPrimaryVolume
+  EndVolume
+EndTrack
+
+LeadOut XA
+  Empty 150
+EndTrack
+
+EndDisc
